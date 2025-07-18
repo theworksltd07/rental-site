@@ -1,82 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css" />
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>The Works LTD - Rentals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Works Rentals</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #222;
+    }
+    header {
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    nav {
+      background: #eee;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #444;
+      padding: 10px 20px;
+      border-radius: 8px;
+      background: #fff;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #cceeff;
+      transform: scale(1.05);
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .contacts {
+      text-align: center;
+      padding: 20px;
+      background: #fafafa;
+      border-top: 1px solid #ccc;
+    }
+    .contacts a {
+      margin: 0 10px;
+      color: #1a73e8;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-
   <header>
-    <img src="PNGs/theworkslogoblack.png" alt="Logo" class="logo" />
-    <h1>The Works LTD</h1>
-    <p class="slogan">Creative Engineers</p>
+    <h1>The Works LTD - Rentals</h1>
+    <p>Creative Engineers</p>
   </header>
 
-  <main>
-    <!-- Cocktail Tables -->
-    <section class="category-section">
-      <h2>Cocktail Tables</h2>
-      <div class="grid">
-        <div class="item"><img src="PNGs/CocktailT1.png"><h3>CocktailT1</h3></div>
-        <div class="item"><img src="PNGs/CocktailT2.png"><h3>CocktailT2</h3></div>
-        <div class="item"><img src="PNGs/CocktailT3.png"><h3>CocktailT3</h3></div>
-      </div>
-    </section>
+  <nav>
+    <a href="cocktail-tables.html">Cocktail Tables</a>
+    <a href="coffee-tables.html">Coffee Tables</a>
+    <a href="pillars.html">Pillars</a>
+    <a href="podiums.html">Podiums</a>
+    <a href="barriers.html">Barriers</a>
+    <a href="chairs.html">Chairs</a>
+    <a href="sofas.html">Sofas</a>
+    <a href="dj-booth.html">DJ Booths</a>
+    <a href="carpets.html">Carpets</a>
+    <a href="bar-counter.html">Bar Counters</a>
+    <a href="puff.html">Puff</a>
+    <a href="ottoman.html">Ottoman</a>
+  </nav>
 
-    <!-- Podiums -->
-    <section class="category-section">
-      <h2>Podiums</h2>
-      <div class="grid">
-        <div class="item"><img src="PNGs/pdm1.png"><h3>pdm1</h3></div>
-        <div class="item"><img src="PNGs/pdm2.png"><h3>pdm2</h3></div>
-        <div class="item"><img src="PNGs/pdm3.png"><h3>pdm2</h3></div>
-      </div>
-    </section>
-
-    <!-- Barriers -->
-    <section class="category-section">
-      <h2>Barriers</h2>
-      <div class="grid">
-        <div class="item"><img src="PNGs/Barrier1.png"><h3>Barrier1</h3></div>
-        <div class="item"><img src="PNGs/Barrier2.png"><h3>Barrier2</h3></div>
-        <div class="item"><img src="PNGs/Barrier3.png"><h3>Barrier3</h3></div>
-      </div>
-    </section>
-
-    <!-- Pillars -->
-    <section class="category-section">
-      <h2>Pillars</h2>
-      <div class="grid">
-        <div class="item"><img src="PNGs/p1.png"><h3>p1</h3></div>
-        <div class="item"><img src="PNGs/p2.png"><h3>p2</h3></div>
-        <div class="item"><img src="PNGs/p3.png"><h3>p3</h3></div>
-        <div class="item"><img src="PNGs/p4.png"><h3>p3</h3></div>
-        <div class="item"><img src="PNGs/p5.png"><h3>p3</h3></div>
-        <div class="item"><img src="PNGs/p6.png"><h3>p3</h3></div>
-        <div class="item"><img src="PNGs/p7.png"><h3>p3</h3></div>
-        <div class="item"><img src="PNGs/p8.png"><h3>p3</h3></div>
-        <div class="item"><img src="PNGs/p9.png"><h3>p3</h3></div>
-      </div>
-    </section>
-  </main>
-
-  <div id="modal" class="modal hidden">
-    <span class="close">×</span>
-    <img id="modal-img" src="" alt="Enlarged View">
+  <div class="hero">
+    <h2>Welcome to The Works Rentals</h2>
+    <p>Discover a wide range of premium event furniture & decor</p>
   </div>
 
-  <script src="script.js"></script>
-  <footer class="info-bar">
-  <div class="info-links">
-    <a href="https://wa.me/255745777787" target="_blank">📱 WhatsApp</a>
-    <a href="tel:+255745777787">📞 Call</a>
-    <a href="mailto:hello@theworks.com">✉️ Email</a>
-    <a href="https://facebook.com/Theworksltd" target="_blank">📘 Instagram</a>
-    <a href="https://www.facebook.com/The.Works.Ltd.tz" target="_blank">📘 Facebook</a>
+  <div class="contacts">
+    <p>📞 <strong>+255 745 777 787</strong></p>
+    <p>
+      <a href="https://wa.me/255745777787" target="_blank">WhatsApp</a> |
+      <a href="https://www.facebook.com/Theworksltd2007" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/Theworksltd2007" target="_blank">Instagram</a>
+    </p>
   </div>
-</footer>
 </body>
 </html>

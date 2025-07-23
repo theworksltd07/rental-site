@@ -9,20 +9,10 @@ body {
   color: #333;
 }
 
-/* Header */
+/* Header + Navigation */
 .site-header {
   background: rgba(255, 255, 255, 0.95);
-  padding: 20px;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* Higher z-index to appear above all */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.site-header {
-  background: rgba(255, 255, 255, 0.95);
-  padding: 20px;
+  padding: 10px 0 20px;
   text-align: center;
   position: sticky;
   top: 0;
@@ -30,20 +20,51 @@ body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 10px;
+}
+
 .site-header nav a {
-  margin: 0 15px;
   color: #333;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.site-header nav a:hover {
+  background-color: #e8691a;
+  color: #ffffff;
+}
+
+.logo {
+  height: 60px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+/* Description section */
+.description-area {
+  background: rgba(255, 255, 255, 0.85);
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
 }
 
 /* Gallery grid */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
-  padding: 100px 20px 120px; /* extra top & bottom padding to prevent overlap */
+  padding: 40px 20px 120px;
 }
 
 /* Item cards */
@@ -76,7 +97,7 @@ body {
   color: #555;
 }
 
-/* Sticky contact footer */
+/* Footer contact */
 .contacts {
   background: #f8f8f8;
   padding: 15px;
@@ -93,4 +114,12 @@ body {
   text-decoration: none;
   margin: 0 5px;
   font-weight: 600;
+}
+
+/* Responsive nav */
+@media (max-width: 600px) {
+  .site-header nav {
+    flex-direction: column;
+    gap: 10px;
+  }
 }

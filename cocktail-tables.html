@@ -3,194 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cocktail Tables | The Works Rentals</title>
+  <title>Cocktail Tables - The Works Rentals</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      color: #222;
-      background-image: url("PNGs/bg.jpg");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      min-height: 100vh;
-    }
-
-    header {
-      text-align: center;
-      background: rgba(255, 255, 255, 0.9);
-      padding: 30px 20px 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-      position: relative;
-      z-index: 5;
-    }
-
-    .logo {
-      width: 200px;
-      max-width: 80%;
-      margin-bottom: 10px;
-    }
-
-    nav {
-      background: rgba(255,255,255,0.95);
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 12px;
-      padding: 10px 15px;
-      position: relative;
-      z-index: 5;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: #333;
-      background: #fff;
-      padding: 10px 16px;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      transition: all 0.2s ease-in-out;
-    }
-
-    nav a:hover {
-      background: #cceeff;
-      transform: scale(1.05);
-    }
-
-    .category-section {
-      padding: 2rem;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1rem;
-      padding: 1rem;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .item {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      overflow: hidden;
-      cursor: pointer;
-      transition: transform 0.3s;
-    }
-
-    .item:hover {
-      transform: scale(1.03);
-    }
-
-    .item img {
-      width: 100%;
-      height: 160px;
-      object-fit: contain;
-      background: #9f9f9f;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-
-    .item h4 {
-      margin: 0;
-      padding: 10px;
-    }
-
-    .contacts {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      background: rgba(255, 255, 255, 0.95);
-      padding: 12px;
-      border-top: 1px solid #ccc;
-      text-align: center;
-      z-index: 10;
-      font-size: 0.95em;
-    }
-
-    .contacts a {
-      margin: 0 10px;
-      color: #1a73e8;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .contacts p {
-      margin: 4px 0;
-    }
-  </style>
 </head>
 <body>
 
-  <!-- Header and Nav copied from home -->
-  <header>
-    <img src="PNGs/theworkslogoblack.png" alt="The Works Rentals Logo" class="logo" />
-    <h1>The Works LTD - Rentals</h1>
-    <p>Creative Engineers</p>
-  </header>
-
+  <!-- Header -->
+  <header class="site-header">
+  <h1>The Works LTD - Rentals</h1>
   <nav>
     <a href="index.html">Home</a>
-    <a href="cocktail-tables.html">Cocktail Tables</a>
-    <a href="coffee-tables.html">Coffee Tables</a>
-    <a href="pillars.html">Pillars</a>
-    <a href="podiums.html">Podiums</a>
-    <a href="barriers.html">Barriers</a>
-    <a href="chairs.html">Chairs</a>
+    <a href="cocktail.html">Cocktail Tables</a>
     <a href="sofas.html">Sofas</a>
-    <a href="dj-booth.html">DJ Booths</a>
-    <a href="carpets.html">Carpets</a>
-    <a href="bar-counter.html">Bar Counters</a>
-    <a href="puff.html">Puff</a>
-    <a href="ottoman.html">Ottoman</a>
+    <a href="dj.html">DJ Booths</a>
+    <a href="podiums.html">Podiums</a>
+    <a href="pillars.html">Pillars</a>
+    <a href="barriers.html">Barriers</a>
+    <a href="coffee.html">Coffee Tables</a>
   </nav>
+</header>
+    </nav>
+  </header>
 
-  <!-- Cocktail Grid -->
-  <section class="category-section">
-    <h2>Cocktail Tables</h2>
-    <div class="grid">
-  <div class="item">
-    <img src="PNGs/CocktailT1.png" alt="Cocktail Table 1" />
-    <h4>Cocktail Table 1</h4>
-    <h5>Dimension:</h5>
-    <h5>Description:</h5>
-  </div>
-  <div class="item">
-    <img src="PNGs/CocktailT2.png" alt="Cocktail Table 2" />
-    <h4>Cocktail Table 2</h4>
-  </div>
-  <div class="item">
-    <img src="PNGs/CocktailT3.png" alt="Cocktail Table 3" />
-    <h4>Cocktail Table 3</h4>
-  </div>
-  <div class="item">
-    <img src="PNGs/CocktailT4.png" alt="Cocktail Table 4" />
-    <h4>Cocktail Table 4</h4>
-  </div>
-  <div class="item">
-    <img src="PNGs/CocktailT5.png" alt="Cocktail Table 5" />
-    <h4>Cocktail Table 5</h4>
-  </div>
-  <div class="item">
-    <img src="PNGs/CocktailT6.png" alt="Cocktail Table 6" />
-    <h4>Cocktail Table 6</h4>
-  </div>
-</div>
-  </section>
+  <!-- Main content -->
+  <main class="gallery">
+    <div class="item-card">
+      <img src="PNGs/CocktailT1.png" alt="Cocktail Table 1">
+      <div class="details">
+        <h3>Cocktail Table 1</h3>
+        <p class="description">Modern white top cocktail table. Fits 2–3 stools.</p>
+      </div>
+    </div>
+    <div class="item-card">
+      <img src="PNGs/CocktailT2.png" alt="Cocktail Table 2">
+      <div class="details">
+        <h3>Cocktail Table 2</h3>
+        <p class="description">Classic round top, metallic leg design. </p>
+      </div>
+    </div>
+    <div class="item-card">
+      <img src="PNGs/CocktailT3.png" alt="Cocktail Table 3">
+      <div class="details">
+        <h3>Cocktail Table 3</h3>
+        <p class="description">Tall table, great for standing cocktails or lounges.</p>
+      </div>
+    </div>
+    <div class="item-card">
+      <img src="PNGs/CocktailT4.png" alt="Cocktail Table 4">
+      <div class="details">
+        <h3>Cocktail Table 4</h3>
+        <p class="description">Rustic theme with wooden finish and black base.</p>
+      </div>
+    </div>
+    <div class="item-card">
+      <img src="PNGs/CocktailT5.png" alt="Cocktail Table 5">
+      <div class="details">
+        <h3>Cocktail Table 5</h3>
+        <p class="description">Sleek all-black design, minimal and elegant.</p>
+      </div>
+    </div>
+    <div class="item-card">
+      <img src="PNGs/CocktailT6.png" alt="Cocktail Table 6">
+      <div class="details">
+        <h3>Cocktail Table 6</h3>
+        <p class="description">Foldable table, ideal for easy transport & setup.</p>
+      </div>
+    </div>
+  </main>
 
-  <!-- Bottom Contact Bar -->
-  <div class="contacts">
-    <p>📞 <strong>+255 745 777 787</strong></p>
-    <p>
-      <a href="https://wa.me/255745777787" target="_blank">WhatsApp</a> |
-      <a href="https://www.facebook.com/Theworksltd2007" target="_blank">Facebook</a> |
-      <a href="https://www.instagram.com/Theworksltd2007" target="_blank">Instagram</a>
+  <!-- Sticky footer -->
+  <footer class="contacts">
+    <p>Call/WhatsApp: <a href="tel:+255712345678">+255 712 345 678</a> | 
+      <a href="https://wa.me/255712345678">Message on WhatsApp</a> | 
+      <a href="https://instagram.com/theworksrentals" target="_blank">Instagram</a>
     </p>
-  </div>
+  </footer>
 
 </body>
 </html>

@@ -62,14 +62,14 @@ body {
 /* Gallery grid */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
   padding: 40px 20px 120px;
 }
 
 /* Item cards */
 .item-card {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(201, 199, 199, 0.85);
   padding: 15px;
   border-radius: 16px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
